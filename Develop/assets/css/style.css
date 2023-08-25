@@ -1,13 +1,17 @@
+
+/* Global styling to reset all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Styling for entire body tag*/
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling for the header tag*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +19,19 @@ header {
     color: #ffffff;
 }
 
+/* Styling for the first heading in the header*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Styling for the seo class in the header's heading*/
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header section {
+/* Stlying for the section in the header*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +39,24 @@ header section {
     font-size: 20px;
 }
 
-header section ul {
+/* Styling for the unorder lists in the header's section*/
+header nav ul {
     list-style-type: none;
 }
 
-header section ul li {
+/* Styling for the list items in the header's section's unordered list*/
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styling for the anchor tag (links)*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-figcaption {
-    font-size: 16px;
-}
-
+/* Styling for the hero class which adds a background image below the header and above the main content*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +66,31 @@ figcaption {
     background-position: center;
 }
 
+/* Styling for elements with the float-left tag and will push them to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Styling for elements with the float-right tag and will push them to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling for the figcaption tag giving them their own font size*/
+figcaption {
+    font-size: 16px;
+}
+
+/* Styling for first section with the content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for a group of figures in the content section*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -86,12 +102,14 @@ figcaption {
     color: #ffffff;
 }
 
+/* Styling for a group of images in the content section*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* Styling for a group of headings in the content section*/ 
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -99,6 +117,7 @@ figcaption {
     font-size: 36px;
 }
 
+/* Styling for the second section with the benefits class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -110,6 +129,7 @@ figcaption {
     background-color: #2589bd;
 }
 
+/* Styling for a group of figures in the benefits section*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -117,6 +137,7 @@ figcaption {
     color: #ffffff;
 }
 
+/* Styling for a group of headings in the benefits section*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -124,6 +145,7 @@ figcaption {
     text-align: center;
 }
 
+/* Styling for a group of images in the benefits section*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
@@ -143,6 +165,6 @@ footer h4 {
     font-size: 20px;
 }
 
-p {
+footer p {
     font-size: 16px;
 }
