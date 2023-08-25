@@ -9,4 +9,8 @@ Making this site I learned about using semantic elements to give a clear underst
 
 ## Webpage Screenshot
 
-![Full Web Page view](Develop/assets/images/full-page-view.png)
+![Full Web Page view](assets/images/full-page-view.png)
+
+## Link to Page
+
+https://midasantiago.github.io/horiseon-webpage/
